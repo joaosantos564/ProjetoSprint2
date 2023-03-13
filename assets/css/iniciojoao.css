@@ -16,3 +16,10 @@ body {
     height: 30%;
 }
 
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    /* pra não sair da visao de tela */
+    overflow: hidden;
+}
