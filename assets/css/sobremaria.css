@@ -9,3 +9,9 @@ h1, h2 {
     font-family: serif;
     text-align: center;
 }
+
+#fotopessoal {
+    border-radius: 10px;
+    border: 5px outset #7657b2;
+    width: 25%;
+}
