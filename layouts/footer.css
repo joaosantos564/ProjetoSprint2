@@ -1,8 +1,10 @@
+/*Configurações Gerais*/
 body {
     margin: 0%;
     padding: 0%;
 }
 
+/*Configurações Footer Principal*/
 footer {
     background-color: #7657b2;
     text-align: center;
@@ -10,11 +12,12 @@ footer {
     bottom: 0%;
     width: 100%;
 }
-
-#linktree {
-    width: 5%;
-}
-
+/*Configurações Escrita*/
 p {
     color: white;
+}
+
+/*Link e Imagem do Linktree*/
+#linktree {
+    width: 5%;
 }
