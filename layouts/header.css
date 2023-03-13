@@ -1,39 +1,40 @@
+/*Configurações Gerais*/
 body {
     font-family: Arial, sans-serif;
     margin: 0%;
 }
-
 main {
     padding: 10px;
 }
 
-a {
-    text-decoration: none;
-}
-
+/*Configurações Header Principal*/
 header {
     background-color: #7657b2;
     padding: 10px;
     display: flex;
 }
 
-#logo {
-    text-align: center;
-}
-
-#imagemlogo {
-    width: 7%;
-}
-
+/*Configurações Header Principal(Botão NavBar)*/
 #navbar {
     display: inline;
 }
-
 .abrir {
     color: white;
     font-size: 25px;
 }
 
+/*Configurações Header Principal(Logo da Equipe)*/
+#logo {
+    text-align: center;
+}
+#imagemlogo {
+    width: 7%;
+}
+
+/*Configurações NavBar*/
+a {
+    text-decoration: none;
+}
 nav {
     height: 100%;
     width: 0%;
@@ -45,14 +46,12 @@ nav {
     overflow: hidden;
     transition: width 1s;
 }
-
 nav a {
     color: white;
     font-size: 25px;
     display: block;
     padding: 12px 10px 12px 32px;
 }
-
 nav a:hover {
     color: #7657b2;
     background-color: white;
