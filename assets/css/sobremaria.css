@@ -73,6 +73,7 @@ border-left: 6px solid #52416d;
 p {
     margin: 20px;
     text-align: justify;
+    line-height: 30px;
 }
 
 .section2 {
