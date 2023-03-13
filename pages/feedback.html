@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<body>
+    <H1>Feedback</H1>
+    <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
+      Nome : <INPUT type="text" name="Nome" placeholder="Digite seu nome aqui">
+      Sobrenome : <INPUT type="text" name="Sobrenome"  placeholder="Digite seu sobrenome aqui">
+      <BR>
+      <BR>
+      <!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
+      <INPUT type="radio" name="Gênero" value="Masculino">Masculino.<BR>
+      <INPUT type="radio" name="Gênero" value="Feminino">Feminino.<BR>  
+      <INPUT type="radio" name="Gênero" value="Outro">Outro.<BR>  
+      <INPUT type="radio" name="Gênero" value="Prefiro não responder">Prefiro não responder.<BR>  
+
+      <BR>
+      <BR>
+      <!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
+      E-mail: <INPUT type="E-mail" name="E-mail" placeholder="Digite seu e-mail">
+      <BR>
+      <BR>
+        Comentário :<BR>        
+        <TEXTAREA rows="6" cols="50" name="Digite seu comentário aqui"></TEXTAREA>
+        <BR>
+        <SELECT name="countychooser">
+          <OPTION value="cork">Cork</OPTION>
+          <OPTION value="dublin">Dublin</OPTION>
+          <OPTION value="galway">Galway</OPTION>
+          <OPTION value="kerry">Kerry</OPTION>
+        </SELECT>
+        <BR>
+        <BR>
+        <INPUT TYPE="submit" value="Send Feedback">
+        <INPUT TYPE="reset" value="Reset">
+    </FORM> 
+</body>
+</html>
+    
+    
