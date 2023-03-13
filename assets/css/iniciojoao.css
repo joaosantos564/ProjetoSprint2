@@ -16,4 +16,29 @@ body {
 
 }
 
-.
+.slides {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slidefirst {
+    width: 25%;
+    position: relative;
+}
+
+.slidefirst img {
+    width: 800px;
+}
+
+.manualnav {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
