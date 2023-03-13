@@ -6,6 +6,7 @@ body{
 
 div{
     display: flex;
+    margin: ;
 }
 
 #section1{
@@ -14,12 +15,12 @@ div{
 
 .img1 {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 40px;
 
 }    
 .img2 {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 40px;
     
 }
 h1{
