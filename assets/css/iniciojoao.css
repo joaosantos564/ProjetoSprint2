@@ -28,6 +28,11 @@ body {
     width: 400px;
     height: 400px;
     display: flex;
+    padding-left: 100px;
+}
+
+.slides input{
+    display: none;
 }
 
 .slide {
@@ -36,6 +41,12 @@ body {
 }
  
 .slide img {
+    width: 800px;
+    width: 25%;
+    position: relative;
+}
+
+.slide-first {
     width: 800px;
 }
 
@@ -52,9 +63,36 @@ body {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0,5s;
 }
 
 .mnual-btn:not(:last-child) {
-    
+    margin-right: 40px;
+}
+
+.mnual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0%;
+
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+
+}
+
+#radio3:checked ~ .first {
+    margin-left: -75%;
+
+}
+
+.nav-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
