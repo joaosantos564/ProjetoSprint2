@@ -8,3 +8,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.art1 {
+    background-color: mediumvioletred;
+    margin: 90%;
+    padding: 90%;
+    height: 30%;
+}
+
