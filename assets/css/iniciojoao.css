@@ -23,3 +23,38 @@ body {
     /* pra não sair da visao de tela */
     overflow: hidden;
 }
+
+.slides {
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+ 
+.slide img {
+    width: 800px;
+}
+
+.mnual-nav {
+    position: absolute;
+    width: 800px;
+    display: flex;
+    margin-top: -40px;
+    justify-content: center;
+}
+
+.mnual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mnual-btn:not(:last-child) {
+    
+}
