@@ -1,3 +1,42 @@
 body {
-    
+    background-color: #edcaff;
+    margin: 0;
+    padding: 0;
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+    border-radius: 52%;
+    margin: 50px;
+}
+
+.center {
+    text-align: center;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(151, 151, 75);
+}
+
+iframe {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#footer {
+    margin-bottom: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: #edcaff;
+
+}
+
+a:hover {
+    bac
 }
