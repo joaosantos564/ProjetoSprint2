@@ -18,5 +18,29 @@ h3 {
 #fotopessoal {
     border-radius: 10px;
     border: 5px outset #7657b2;
-    width: 25%;
+    width: 100%;
+    
+}
+
+article {
+    display: flex;
+    margin: 20px;
+    background-color: #edcaff;
+    border-radius: 10px;
+}
+
+#sobremim {
+    width: 70%;
+    margin: 10px;
+    text-align: justify;
+    margin: 10px;
+}
+
+#foto {
+    width: 30%;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
 }
