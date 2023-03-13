@@ -5,9 +5,14 @@ body {
 }
 
 h1, h2 {
-    color: #7657b2;
+    color: #3b3169;
     font-family: serif;
     text-align: center;
+}
+
+h3 {
+    color: #3b3169;
+    font-family: serif;
 }
 
 #fotopessoal {
