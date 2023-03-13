@@ -15,7 +15,8 @@ div{
 .img1 {
     width: 300px;
     margin-left: 20px;
-    margin
+    margin-left: 50%;
+    margin-right: 50%;
 
 }    
 .img2 {
