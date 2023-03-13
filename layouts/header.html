@@ -7,14 +7,18 @@
 </head>
 
 <body>
+    <!--Header Principal-->
     <header>
-        <div id="navbar" >
+        <!--Header Principal(botão NavBar)-->
+        <div id="navbar">
             <a href="#" class="abrir" onclick="abrirmenu()">&#9776;</a>
         </div>
+        <!--Header Principal(Logo da equipe)-->
         <div id="logo">
             <img id="imagemlogo" src="../assets/images/logowhite.png.png" alt="Logo da equipe">
         </div>
     </header>
+    <!--NavBar-->
     <nav id="menu">
         <a href="#" onclick="fechar()">&times; Fechar</a>
         <a href="#">pagina1</a>
@@ -23,6 +27,7 @@
         <a href="#">pagina4</a>
         <a href="#">pagina5</a>
     </nav>
+    <!--JavaScript-->
     <script>
         function abrirmenu() {
             document.getElementById('menu').style.width = '20%';
