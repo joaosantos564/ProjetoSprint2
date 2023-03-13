@@ -26,3 +26,16 @@ form {
     background-color: ;
     color: ;
 }
+
+#label_name:focus {
+    border-style: solid;
+    outline: 0;
+}
+
+input {
+    margin: 10px;
+}
+
+body {
+        background-color: ;
+}
