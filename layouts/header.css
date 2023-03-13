@@ -12,8 +12,21 @@ a {
 }
 
 header {
-    background-color: #104f03;
+    background-color: #7657b2;
     padding: 10px;
+    display: flex;
+}
+
+#logo {
+    text-align: center;
+}
+
+#imagemlogo {
+    width: 7%;
+}
+
+#navbar {
+    display: inline;
 }
 
 .abrir {
@@ -24,7 +37,7 @@ header {
 nav {
     height: 100%;
     width: 0%;
-    background-color: #104f03;
+    background-color: #7657b2;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -41,6 +54,6 @@ nav a {
 }
 
 nav a:hover {
-    color: #104f03;
+    color: #7657b2;
     background-color: white;
 }

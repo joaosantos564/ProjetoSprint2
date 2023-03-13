@@ -8,10 +8,15 @@
 
 <body>
     <header>
-        <a href="#" class="abrir" onclick="abrirmenu()" >&#9776; abrir</a>
+        <div id="navbar" >
+            <a href="#" class="abrir" onclick="abrirmenu()">&#9776;</a>
+        </div>
+        <div id="logo">
+            <img id="imagemlogo" src="../assets/images/logowhite.png.png" alt="Logo da equipe">
+        </div>
     </header>
     <nav id="menu">
-        <a href="#" onclick="fechar()" >&times; Fechar</a>
+        <a href="#" onclick="fechar()">&times; Fechar</a>
         <a href="#">pagina1</a>
         <a href="#">pagina2</a>
         <a href="#">pagina3</a>
@@ -24,7 +29,7 @@
         }
 
         function fechar() {
-            document.getElementById('menu').style.width= '0%';
+            document.getElementById('menu').style.width = '0%';
         }
     </script>
 </body>
