@@ -21,7 +21,7 @@ box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
 border-width: 3px;
 
-}    
+} 
 .img2 {
     width: 300px;
     margin-left: 40px;
@@ -29,6 +29,7 @@ border-width: 3px;
 -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
+border-width: 3px;
     
 }
 h1{
