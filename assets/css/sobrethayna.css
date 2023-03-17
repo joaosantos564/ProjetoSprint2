@@ -28,7 +28,7 @@ h3{
     font-family: serif;
     text-align: center;
 }
-
+/*Configuração link do instagram*/
 a{
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ a{
     border: 5px outset #7657b2;
     width: 100%;
 }
-
+/*configurações Texto 1*/
 #sobremim{
     width: 70%;
 }
