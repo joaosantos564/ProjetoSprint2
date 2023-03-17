@@ -18,7 +18,7 @@ div{
 
 .img1 {
     width: 300px;
-    margin-left: 40px;
+    margin-left: 33px;
 -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
@@ -28,7 +28,7 @@ border-width: 3px;
 /*imgs*/
 .img2 {
     width: 300px;
-    margin-left: 40px;
+    margin-left: 33px;
     -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
@@ -50,76 +50,113 @@ h2{
 .section1{
     margin: 10px;
     width: 30%;
-    background-color: #edcaff;
-    border-radius: 10px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    background-color:#edcaff ;
+    position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
 
 }
+.section1:hover{
+    letter-spacing: 0.2em;
+}
 /*section*/
-
 .section2{
     margin: 10px;
-    background-color:#7657b2;
     width: 30%;
-    border-radius: 10px;
-    background-color: #edcaff;
-    border-radius: 10px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    background-color:#edcaff ;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.section2:hover{
+    letter-spacing: 0.2em;
 }
 .section3{
     margin: 10px;
-    background-color:#7657b2;
     width: 30%;
-    border-radius: 10px;
-    background-color: #edcaff;
-    border-radius: 10px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    background-color:#edcaff ;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.section3:hover{
+    letter-spacing: 0.2em;
 }
 .section4{
     margin: 10px;
-    background-color:#7657b2;
     width: 30%;
-    border-radius: 10px;
-    background-color: #edcaff;
-    border-radius: 10px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    background-color:#edcaff ;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.section4:hover{
+    letter-spacing: 0.2em;
 }
 .section5{
     margin: 10px;
-    background-color:#7657b2;
     width: 30%;
-    border-radius: 10px;
-    background-color: #edcaff;
-    border-radius: 10px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    background-color:#edcaff ;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.section5:hover{
+    letter-spacing: 0.2em;
 }
 .section6{
     margin: 10px;
-    background-color:#7657b2;
     width: 30%;
-    border-radius: 10px;
-    background-color: #edcaff;
-    border-radius: 10px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    background-color:#edcaff ;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+
 }
+.section6:hover{
+    letter-spacing: 0.2em;
+}
+
+
 
 article{
     padding: 20px;
@@ -145,4 +182,4 @@ font-family: Arial, Helvetica, sans-serif;
 h2{
     text-align: center;
 }
-/*end/*
+/*end*/
