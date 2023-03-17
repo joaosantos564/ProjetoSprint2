@@ -17,35 +17,35 @@
     <form>
         <fieldset class="grupo">
             <div>
-                <label>Nome</label>
+                <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
             </div>
-            <div>
-                <label>Sobrenome</label>
+            <div class="campo">
+                <label for="nome">Sobrenome</label>
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
 
         </fieldset>
         <div>
-            <label>Email</label>
+            <label for="nome">Email</label>
             <input type="email" name="email" id="email">
         </div>
 
-        <div>
-            <label>De qual lado da aplicação vc desenvolve?</label>
+        <div >
+            <label for="nome">De qual lado da aplicação vc desenvolve?</label>
             <label>
                 <input type="radio" name="devweb" value="fronted" checked>Front-end
             </label>
-            <label>
+            <label for="nome">
                 <input type="radio" name="devweb" value="backend">Back-end  
             </label>
-            <label>
+            <label for="nome">
                 <input type="radio" name="devweb" value="fullstack">fullstack
             </label>
 
         </div>
-        <div>
-            <label>Senioridade</label>
+        <div class="campo">
+            <label for="nome">Senioridade</label>
             <select id="Senioridade">
                 <option selected disabled value="">Selecione</option>
                 <option>junior</option>
@@ -55,8 +55,8 @@
         </div>
 
         <fieldset class="grupo">
-            <div>
-                <label>Selecione as tecnologias que utiliza:</label>
+            <div class="campo">
+                <label for="nome">Selecione as tecnologias que utiliza:</label>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
                 <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
@@ -75,9 +75,9 @@
             </div>
         </fieldset>
 
-        <div>
+        <div class="campo">
             <br>
-            <label>Conte um pouco da sua experiência:</label>
+            <label for="nome">Conte um pouco da sua experiência:</label>
             <textarea row="6" style="widht: 26em" id="experiência" name="experiência"></textarea>
         </div>
         <button type="submit">Concluído</button>
