@@ -52,4 +52,6 @@ fieldset.grupo .campo {
 
 }
 
-.campo
+.campo input[type="text"], .campo input [type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+}
