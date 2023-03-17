@@ -6,4 +6,11 @@
 #titulo {
     font-family: sans-serif;
     color: #380b61;
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 10%; 
 }
