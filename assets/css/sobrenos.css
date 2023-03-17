@@ -56,10 +56,59 @@ h2{
 -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
+
 }
 /*section*/
 
 .section2{
+    margin: 10px;
+    background-color:#7657b2;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #edcaff;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+}
+.section3{
+    margin: 10px;
+    background-color:#7657b2;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #edcaff;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+}
+.section4{
+    margin: 10px;
+    background-color:#7657b2;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #edcaff;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+}
+.section5{
+    margin: 10px;
+    background-color:#7657b2;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #edcaff;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+}
+.section6{
     margin: 10px;
     background-color:#7657b2;
     width: 30%;
