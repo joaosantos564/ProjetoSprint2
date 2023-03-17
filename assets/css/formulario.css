@@ -45,3 +45,11 @@ button {
     color: #59429d;
     display: block;
 }
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+
+}
+
+.campo
