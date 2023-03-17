@@ -18,7 +18,7 @@ body {
 
 h1{
     text-align: center;
-    color: rgb(151, 151, 75);
+    color: purple;
 }
 
 iframe {
@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-    background-color: purple;
-    color: paleturquoise;
+    background-color: blueviolet;
+    color: #edcaff;
     border-radius: 3px;
 }
