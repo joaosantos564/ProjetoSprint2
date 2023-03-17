@@ -60,8 +60,14 @@ a{
     margin: 25px;
 }
 
-section1{
+.section1{
     background-color: #edcaff;
     border-radius: 10px;
     border-left: 6px solid #52416d;
+}
+
+.subtitulo{
+    text-align: left;
+    margin: 5px;
+    color: #3b3169;
 }
