@@ -20,5 +20,10 @@ body {
 
 .container1 {
     display: flex;
-    width: 100%
+    width: 100%;
+    
+}
+
+#titulo {
+    text-align: center;
 }
