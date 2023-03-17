@@ -12,7 +12,6 @@ p{
 }
 /*Configurações nome*/
 h1{
-    padding: 6px;
     color: #3b3169;
     font-family: serif;
     text-align: center;
@@ -85,6 +84,7 @@ a{
 }
 /*Configurações seção hobbie*/
 .section2 {
+    padding: 6px;
     background-color: #edcaff;
     border-radius: 10px;
     width: 33%;
