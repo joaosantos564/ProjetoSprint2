@@ -22,20 +22,21 @@ h2{
     text-align: center;
 }
 
-a{
-    text-decoration: none;
+h3{
+    color: #3b3169;
+    font-family: serif;
+    text-align: center;
 }
 
-#fotopessoal{
-    border-radius: 10px;
-    border: 5px outset #7657b2;
-    width: 100%;
+a{
+    text-decoration: none;
 }
 
 /*Configurações article 1*/
 #article1{
     display: flex;
     margin: 25px;
+    box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
     border-left: 6px solid #52416d;
 }
 
@@ -43,6 +44,12 @@ a{
 #foto{
     width: 30%;
     margin: 10px;
+}
+
+#fotopessoal{
+    border-radius: 10px;
+    border: 5px outset #7657b2;
+    width: 100%;
 }
 
 #sobremim{
@@ -70,4 +77,12 @@ a{
     text-align: left;
     margin: 5px;
     color: #3b3169;
+    font-family: serif;
+}
+
+.section2{
+    background-color: #edcaff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 36px --13px rgba(82, 65, 109, 1);
+    border-left: 6px solid #52416d;
 }
