@@ -39,6 +39,9 @@ a{
     margin: 25px;
     box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
     border-left: 6px solid #52416d;
+    border-radius: 10px;
+    box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    border-left: 6px solid #52416d;
 }
 
 /*Configurações imagem 1*/
@@ -62,6 +65,7 @@ a{
     margin: 10px;
     text-align: justify;
     margin: 10px;
+    
 }
 /*Configurações artigo 2*/
 #article2{
