@@ -29,7 +29,7 @@ body {
     justify-content: center;
 }
 
-input,select,textarea,button {
+input,select,textarea,button {  
     border-radius: 5px;
 }
 
@@ -49,10 +49,7 @@ fieldset.grupo .campo {
 
 }
 
-.campo input[type="text"],
-.campo input [type="email"],
-.campo select,
-.campo textarea {
+.campo input[type="text"], .campo input [type="email"], .campo select,.campo textarea {
     padding: 0.2em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
