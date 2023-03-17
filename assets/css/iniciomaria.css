@@ -67,11 +67,10 @@ margin-left: 15px;
     width: 10%;
 }
 
-#sectionultimasnoticias {
+.sectionultimasnoticias {
     background-color: white;
     display: flex;
     align-items: center;
-    width: 100%;
     border-radius: 10px;
 }
 
