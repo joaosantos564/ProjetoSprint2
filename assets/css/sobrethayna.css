@@ -49,19 +49,19 @@ a{
     width: 70%;
 }
 
-.subtitulo{
-    text-align: left;
-    margin: 5px;
-    color: #3b3169;
-    font-family: serif;
-    text-align: center;
+#sobremimtexto{
+    margin: 10px;
+    text-align: justify;
+    margin: 10px;
 }
 
-/*Configurações Section hobbie*/
-.section2{
+#article2{
+    display: flex;
+    margin: 25px;
+}
+
+section1{
     background-color: #edcaff;
     border-radius: 10px;
-    margin-right: 25px;
-    box-shadow: 10px 10px 36px --13px rgba(82, 65, 109, 1);
     border-left: 6px solid #52416d;
 }
