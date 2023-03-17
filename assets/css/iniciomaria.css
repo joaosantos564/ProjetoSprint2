@@ -91,8 +91,8 @@ a {
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 #h1texto {
@@ -103,4 +103,5 @@ a {
 
 img {
     border-radius: 10px;
+    margin: 5px;
 }
