@@ -40,3 +40,7 @@ section {
 article {
     display: flex;
 }
+
+p {
+    line-height: 40px;
+}
