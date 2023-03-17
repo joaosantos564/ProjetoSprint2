@@ -100,3 +100,7 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+
+img {
+    border-radius: 10px;
+}
