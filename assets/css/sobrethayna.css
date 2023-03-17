@@ -62,12 +62,12 @@ a{
     text-align: justify;
     margin: 10px;
 }
-
+/*Configurações artigo 2*/
 #article2{
     display: flex;
     margin: 25px;
 }
-
+/* Configurações seção*/
 .section1{
     background-color: #edcaff;
     border-radius: 10px;
