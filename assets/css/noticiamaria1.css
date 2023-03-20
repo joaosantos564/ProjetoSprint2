@@ -42,8 +42,18 @@ div {
     width: 50%;
 }
 
+/*Noticia Principal*/
 
-
+#textoprincipal {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    line-height: 40px;
+    text-align: justify;
+}
 
 /*Navbar Lateral*/
 #container {
@@ -73,24 +83,6 @@ h1 {
 
 
 
-
-
-
-
-
-
-#textoprincipal {
-    background-color: white;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-p {
-    line-height: 40px;
-    text-align: justify;
-}
 
 
 
