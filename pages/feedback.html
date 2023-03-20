@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <!-- Metadados -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/feedback.css" media="screen">
+
+    <!-- Título da página -->
     <title>Feedback</title>
 </head>
+
 <body>
-    <H1>Feedback</H1>
+
+    <H1 class="Feedback">Feedback</H1>
     <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
-      Nome : <INPUT type="text" name="Nome" placeholder="Digite seu nome aqui">
-      Sobrenome : <INPUT type="text" name="Sobrenome"  placeholder="Digite seu sobrenome aqui">
+        <div class="input_form">
+          <label>Nome:</label>
+          <INPUT type="text" name="Nome" placeholder="Digite seu nome aqui" required>
+        </div>
       <BR>
       <BR>
-      <!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
-      <INPUT type="radio" name="Gênero" value="Masculino">Masculino.<BR>
-      <INPUT type="radio" name="Gênero" value="Feminino">Feminino.<BR>  
-      <INPUT type="radio" name="Gênero" value="Outro">Outro.<BR>  
-      <INPUT type="radio" name="Gênero" value="Prefiro não responder">Prefiro não responder.<BR>  
+      <label>Sobrenome:</label>
+      <INPUT type="text" name="Sobrenome"  placeholder="Digite seu sobrenome aqui" required>
 
       <BR>
       <BR>
-      <!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
-      E-mail: <INPUT type="E-mail" name="E-mail" placeholder="Digite seu e-mail">
+      <!--Coloque seu e-mail e opções de deixar um comentário para um assunto expecifico-->
+      <label>E-mail:</label>
+      <INPUT type="E-mail" name="E-mail" placeholder="Digite seu e-mail">
+       
+
       <BR>
       <BR>
         Comentário :<BR>        
-        <TEXTAREA rows="6" cols="50" name="Digite seu comentário aqui"></TEXTAREA>
+        <INPUT type="Comentário" name="Digite seu comentário aqui" placeholder="Digite seu comentário aqui">
         <BR>
         <SELECT name="countychooser">
-          <OPTION value="cork">Biologia</OPTION>
-          <OPTION value="dublin">Futebol</OPTION>
-          <OPTION value="galway">Geologia</OPTION>
-          <OPTION value="kerry">Nutrição</OPTION>
-          <OPTION value="kerry">Nutrição</OPTION>
+          <OPTION value="Biologia">Biologia</OPTION>
+          <OPTION value="Futebol">Futebol</OPTION>
+          <OPTION value="Geologia">Geologia</OPTION>
+          <OPTION value="Nutrição">Nutrição</OPTION>
+          <OPTION value="Tecnologia">Tecnologia</OPTION>
+          <OPTION value="Vestibular!">Vestibular!</OPTION>
         </SELECT>
         <BR>
         <BR>
-        <INPUT TYPE="submit" value="Digite seu feedback aqui">
-        <INPUT TYPE="reset" value="Reset">
+        <INPUT TYPE="submit" value="Enviar Feedback">
     </FORM> 
 </body>
-</html>
-    
-    
+</html> 64
