@@ -1,33 +1,44 @@
+/*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2, h3{
-    color: #7657b2;
-    text-align: center;
-    }
-
+/*Article Principal*/
 #articleprincipal {
     display: flex;
     align-items: center;
 }
 
+/*Article Principal Titulos*/
+h2, h3{
+    color: #7657b2;
+    text-align: center;
+    }
+    #escritatitulo {
+        font-size: 200%;
+        color: #7657b2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+/*Article Principal Imagem*/
 #fotoprincipal {
     width: 90%;
     margin: 20px;
     border: 5px outset #7657b2;
 }
+#imgprincipal {
+    width: 50%;
+    }
 
+
+
+    /**/
 div {
     width: 50%;
 }
 
-#escritatitulo {
-    font-size: 200%;
-    color: #7657b2;
-text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 aside {
     background-color: #E0CFE6;
@@ -36,7 +47,10 @@ aside {
 
 #textoprincipal {
     background-color: white;
-    width: 70%
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 article {
@@ -60,23 +74,26 @@ section {
     margin: 10px;
 }
 
-#imgprincipal {
-width: 50%;
-}
+
 
 #divprincipal {
     width: 50%;
 }
 
-div {
-    width: 50%;
+
+
+
+
+
+
+
+
+
+
+#divcomentarios {
+display: flex;
 }
 
-h1 {
-    margin: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #7657b2;
+#sectioncomentarios {
+    width: 33%;
 }
