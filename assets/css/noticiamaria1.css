@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-article {
+main {
     display: flex;
 }
 
@@ -50,9 +50,11 @@ div {
     display: flex;
     flex-direction: column;
 }
-p {
+#noticia {
     line-height: 40px;
     text-align: justify;
+    margin: 10px;
+    width: 95%;
 }
 
 /*Navbar Lateral*/
@@ -62,6 +64,7 @@ p {
 
 aside {
     background-color: #E0CFE6;
+    height: 380px;
 }
 
 h1 {
@@ -82,27 +85,65 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #divcomentarios {
-    display: flex;
+    width: 100%;
+}
+ 
+.sectioncomentarios {
+    background-color: #E0CFE6;
+display: flex;
+    margin: 10px;
 }
 
-#sectioncomentarios {
-    width: 33%;
+.imgdepoimentos {
+    width: 70px;
+    margin: 10px;
+    border: 5px outset #7657b2;
+    height: 70px;
+}
+
+.nomedepoimentos {
+    color: #7657b2;
+    text-align: left; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+}
+
+p {
+    line-height: 30px;
+text-align: justify;
+width: 95%;
+margin: 5px;
+}
+
+#estrelaavaliacao {
+    width: 2%;
+    border: none;
+    margin: 5px;
+}
+
+#nomeeinsta {
+    width: 100%;
+}
+
+#divcomentarios {
+    align-items: center;
+}
+
+#navbarlateral3 {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#div_bottom {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #7657b2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
