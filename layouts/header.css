@@ -3,3 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0%;
 }
+
+header {
+    background-color: #7657b2;
+}
+
+img {
+    width: 7%;
+}
