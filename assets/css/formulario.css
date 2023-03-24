@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+iframe {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: -30px;
+}
+
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
@@ -33,7 +40,6 @@ body{
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
-    margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
 }
@@ -44,6 +50,11 @@ input, select, textarea, button {
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
+}
+
+button {
+    margin-top: 140px;
+    margin-bottom: 50px;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
@@ -120,4 +131,7 @@ fieldset.grupo .campo {
 /* Elementos de classe botão e de tag <select> */
 .botao, select{
     cursor: pointer;
+}
+#formtotal {
+    margin-left: 35%;
 }
