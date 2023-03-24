@@ -54,7 +54,10 @@ html {
 }
 
 /*article 0 inicio */
-
+.imgbanner {
+    width: 100%;
+    height: 100%;
+}
 
   /*article 0 fim */
 .a1 {
