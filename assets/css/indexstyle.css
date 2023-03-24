@@ -517,3 +517,95 @@ html {
 }
     
 /* article 6 css */
+
+.a6 {
+    display: grid;
+    /*posicionamento*/
+    grid-template-columns: 300px minmax(300px, 445px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
+    height: 300px;
+    width: 80%;
+    margin-top: 40px;
+}
+/*img zoom inicio*/
+.img6 {
+    position: relative;
+    overflow: hidden;
+}
+
+.bola {
+    width: 300px;
+    object-fit: cover;
+    object-position: left;
+    transition: 0, 5s;
+    border-radius: 10px;
+
+}
+
+.img6 ~ .bola {
+        max-width: 100%;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+/*img zoom fim*/
+
+.a6:hover{
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+
+}
+
+.a6text {
+    background: var(--#e70843);
+    padding: 32px 40px;
+    border-radius: 0 10px 10px 0;
+    margin-left: 20px;
+
+}
+
+.titlea6 {
+    font-size: 20px;
+    color: #e70843;
+    margin-bottom: 12px;
+    line-height: 1.4;
+
+}
+
+.text6 {
+    margin-bottom: 18px;
+    color: black;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.contentfooter6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor6 {
+    display: flex;
+    align-items: center;
+}
+
+.thaynaimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.autor-name6 {
+    color: #e70843;
+}
+
+.dia-publicacao6 {
+    color: gray;
+    opacity: 40%;
+}
