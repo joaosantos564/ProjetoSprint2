@@ -369,7 +369,7 @@ html {
 }
 
 .a4text {
-    background: var(--#ca84fc);
+    background: var(--#650c86);
     padding: 5px 15px;
     border-radius: 0 10px 10px 0;
     margin-left: 20px;
@@ -378,7 +378,7 @@ html {
 
 .titlea4 {
     font-size: 20px;
-    color: #ca84fc;
+    color: #650c86;
     margin-bottom: 12px;
     line-height: 1.4;
 
@@ -410,7 +410,7 @@ html {
 }
 
 .autor-name4 {
-    color: #ca84fc;
+    color: #650c86;
 }
 
 .dia-publicacao4 {
@@ -464,16 +464,17 @@ html {
 }
 
 .a5text {
-    background: var(--#cc00ff);
+    background: var(--#800080);
     padding: 10px 20px;
     border-radius: 0 10px 10px 0;
     margin-left: 5px;
+    margin-top: 20px;
 
 }
 
 .titlea5 {
     font-size: 20px;
-    color: #cc00ff;
+    color: #800080;
     margin-top: -2px;
     line-height: 1.4;
 
@@ -489,12 +490,13 @@ html {
 .contentfooter5 {
     display: flex;
     justify-content: space-between;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 .autor5 {
     display: flex;
     align-items: center;
+    
 }
 
 .nickolasimg {
@@ -502,10 +504,11 @@ html {
     height: 40px;
     border-radius: 50%;
     margin-right: 15px;
+    
 }
 
 .autor-name5 {
-    color: #cc00ff;
+    color: purple;
 }
 
 .dia-publicacao5 {
