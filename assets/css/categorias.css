@@ -8,4 +8,39 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #7657b2;
     text-align: center;
+    margin: 20px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    background-color: #7657b2;
+    align-items: center;
+    margin: 40px;
+    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-radius: 10px;
+}
+
+main {
+    display: flex;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    font-size: 40px;
 }
