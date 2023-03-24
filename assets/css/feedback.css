@@ -55,7 +55,7 @@ fieldset.grupo .campo {
     padding-right: 1em;
 }
 
-.campo input:focus, .campo select: focus, .campo textarea:focus {
+.campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #E0E0f8;
 }
 

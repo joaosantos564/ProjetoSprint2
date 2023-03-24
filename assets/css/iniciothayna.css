@@ -1,14 +1,13 @@
-/*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-iframe {
-    width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 a {
     text-decoration: none;
+}
+iframe {
+    width: 100%;
 }
 
 /*Article 1*/
