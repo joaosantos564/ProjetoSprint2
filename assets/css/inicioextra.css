@@ -28,11 +28,11 @@ section {
     background-color: #E0CFE6;
     width: 50%;
     margin: 20px;
-    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-radius: 10px;
-text-align: center;
+    -webkit-box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    -moz-box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    border-radius: 10px;
+    text-align: center;
 }
 
 article {
@@ -45,7 +45,8 @@ article {
 
 li {
     color: #7657b2;
-    text-align: center;
+    text-align: left;
+    line-height: 30px;
 }
 
 p {
@@ -57,5 +58,10 @@ div {
 }
 
 ul {
-    text-align:center ;
+    width: 60%;
+    margin: auto;
+}
+
+#redessociais {
+    width: 10%;
 }
