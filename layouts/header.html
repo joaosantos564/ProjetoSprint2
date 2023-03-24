@@ -7,36 +7,20 @@
 </head>
 
 <body>
-    <!--Header Principal-->
     <header>
-        <!--Header Principal(botão NavBar)-->
+        <a href="../index.html">
+            <img src="../assets/images/logowhite.png.png" alt="Logo da equipe">
+        </a>
         <div id="navbar">
-            <a href="#" class="abrir" onclick="abrirmenu()">&#9776;</a>
-        </div>
-        <!--Header Principal(Logo da Equipe)-->
-        <div id="logo">
-            <img id="imagemlogo" src="../assets/images/logowhite.png.png" alt="Logo da equipe">
-        </div>
+        <ul>
+            <li><a href="../index.html"><h3>Início</h3></a></li>
+            <li><a href="#"><h3>Categorias</h3></a></li>
+            <li><a href="../pages/sobrenos.html"><h3>Equipe</h3></a></li>
+            <li><a href="../pages/formulario.html"><h3>Contato</h3></a></li>
+            <li><a href="../pages/feedback.html"><h3>Feedback</h3></a></li>
+        </ul>
+    </div>
     </header>
-    <!--NavBar-->
-    <nav id="menu">
-        <a href="#" onclick="fechar()">&times; Fechar</a>
-        <a href="#">pagina1</a>
-        <a href="#">pagina2</a>
-        <a href="#">pagina3</a>
-        <a href="#">pagina4</a>
-        <a href="#">pagina5</a>
-    </nav>
-    <!--JavaScript-->
-    <script>
-        function abrirmenu() {
-            document.getElementById('menu').style.width = '20%';
-        }
-
-        function fechar() {
-            document.getElementById('menu').style.width = '0%';
-        }
-    </script>
 </body>
 
 </html>
