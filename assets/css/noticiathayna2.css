@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 main {
     display: flex;
@@ -9,7 +11,7 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p {
-    line-height: 30px;
+line-height: 30px;
 text-align: justify;
 width: 95%;
 margin: 5px;
@@ -43,7 +45,7 @@ h3 {
 }
 
 #imgprincipal {
-    width: 50%;
+    width: 30%;
 }
 
 div {
@@ -67,6 +69,7 @@ div {
 /*Navbar Lateral*/
 #container {
     width: 30%;
+    font-size: 20px;
 }
 aside {
     background-color: #E0CFE6;
@@ -77,18 +80,22 @@ aside {
     background-color: white;
     margin: 10px;
     border-radius: 10px;
+
 }
 .fotonoticias {
     border-radius: 10px;
-    width: 100%;
+    width: 65%;
 }
+
 #navbarlateral3 {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-}a {
+}
+
+a {
     text-decoration: none;
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
