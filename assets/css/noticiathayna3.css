@@ -8,10 +8,12 @@ body {
 main {
     display: flex;
 }
+/*Título maior*/
 h1 {
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*parágrafo*/
 p {
     line-height: 30px;
 text-align: justify;
