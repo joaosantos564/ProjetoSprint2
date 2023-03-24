@@ -1,3 +1,4 @@
+/*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -5,24 +6,30 @@ body {
     text-align: center;
 }
 
+/*Título e subtítulo*/
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #7657b2;
     text-align: center;
     margin: 20px;
 }
-
 h4 {
     color: black;
     text-align: center;
 }
 
+/*Main*/
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/*Sections*/
 img {
     width: 260px;
     margin: 30px;
     height: 150px;
 }
-
 section {
     display: flex;
     background-color: #7657b2;
@@ -33,12 +40,6 @@ section {
     box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
     border-radius: 10px;
 }
-
-main {
-    display: flex;
-    justify-content: center;
-}
-
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
@@ -47,11 +48,9 @@ p {
     width: 100%;
     font-size: 40px;
 }
-
 section:hover {
     transform: scale3d(1.1, 1.1, 1)
 }
-
 a {
     text-decoration: none;
 }
