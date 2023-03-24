@@ -1,8 +1,9 @@
 /*Configurações Gerais*/
+/*corpo*/
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*principal*/
 main {
     display: flex;
 }
