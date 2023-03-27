@@ -1,4 +1,7 @@
 
+<<<<<<< HEAD
+
+=======
 /* Todos os elementos da página */
 * {
     margin: 0;
@@ -128,3 +131,4 @@ fieldset.grupo .campo {
 .botao, select{
     cursor: pointer;
 }
+>>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
