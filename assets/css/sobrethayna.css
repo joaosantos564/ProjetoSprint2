@@ -90,10 +90,10 @@ border-left: 6px solid #52416d;
     background-color: #edcaff;
     border-radius: 10px;
     width: 33%;
-margin-left: 25px;
-margin-right: 25px;
--webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    margin-left: 25px;
+    margin-right: 25px;
+    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    border-left: 6px solid #52416d;
 }
