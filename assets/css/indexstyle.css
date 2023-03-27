@@ -12,7 +12,7 @@ body {
 .sectionbn {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,14 +35,16 @@ body {
     display: none;
 }
 
+
 .st {
     width: 20%;
     transition: 2s;
 }
 
 .st .imgbanner {
-    width: 800px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
+  
 }
 
 .nav-m{
@@ -54,7 +56,7 @@ body {
 }
 
 .m-btn{
-    border: 2px solid #ca84fc;
+    border: 2px solid #dcdcd9;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -66,7 +68,7 @@ body {
 }
 
 .m-btn:hover {
-    background-color: #ca84fc;
+    background-color: #c004ff;
 }
 
 #radio1:checked ~.first {
@@ -94,7 +96,7 @@ body {
 }
 
 .nav-auto div{
-    border: 2px solid #ca84fc;
+    border: 2px solid #000;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -106,19 +108,19 @@ body {
 }
 
 #radio1:checked ~ .nav-auto .a-b1 {
-    background: #ca84fc;
+    background: #dcdcd9;
 }
 
 #radio2:checked ~ .nav-auto .a-b2 {
-    background: #ca84fc;
+    background: #dcdcd9;
 }
 
 #radio3:checked ~ .nav-auto .a-b3 {
-    background: #ca84fc;
+    background: #dcdcd9;
 }
 
 #radio4:checked ~ .nav-auto .a-b4 {
-    background: #ca84fc;
+    background: #dcdcd9;
 }
 
 /* banner fim*/
@@ -136,6 +138,13 @@ a {
 
 .main2  {
     display: flex;
+}
+
+.a0 p{
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .a3a4 {
