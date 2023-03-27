@@ -17,14 +17,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/*div slider*/
 .slider {
     width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
-
+/*responsavel pelo button*/
 .slide {
     width: 500%;
     height: 500px;
@@ -256,7 +256,7 @@ html {
     display: flex;
     align-items: center;
 }
-
+/*img do estudante*/
 .joaoimg {
     width: 40px;
     height: 40px;
@@ -351,7 +351,7 @@ html {
     display: flex;
     align-items: center;
 }
-
+/*img do estudante*/
 .mariaimg {
     width: 40px;
     height: 40px;
@@ -447,7 +447,7 @@ html {
     display: flex;
     align-items: center;
 }
-
+/*img do estudante*/
 .guiimg {
     width: 40px;
     height: 40px;
@@ -542,7 +542,7 @@ html {
     display: flex;
     align-items: center;
 }
-
+/*img do estudante*/
 .doraimg {
     width: 40px;
     height: 40px;
@@ -640,7 +640,7 @@ html {
     align-items: center;
     
 }
-
+/*img do estudante*/
 .nickolasimg {
     width: 40px;
     height: 40px;
@@ -735,7 +735,7 @@ html {
     display: flex;
     align-items: center;
 }
-
+/*img do estudante*/
 .thaynaimg {
     width: 40px;
     height: 40px;
