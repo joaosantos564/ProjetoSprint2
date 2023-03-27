@@ -34,9 +34,9 @@ h2 {
     background-color: #edcaff;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    border-left: 6px solid #52416d;
 }
 
 /*Configurações Imagem 1*/
@@ -73,9 +73,9 @@ border-left: 6px solid #52416d;
     border-radius: 10px;
     width: 33%;
     -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
--moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-border-left: 6px solid #52416d;
+    -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+    border-left: 6px solid #52416d;
 
 }
 .subtitulo {
