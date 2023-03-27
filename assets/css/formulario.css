@@ -15,14 +15,14 @@ iframe {
 #titulo {
     font-family: sans-serif;
     color: #7657b2;
-    margin-left: 7%;
+    margin-left: 5%;
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
     color: #7657b2;
-    margin-left: 10%;
+    margin-left: 4%;
 } 
 
 #check{
@@ -131,7 +131,11 @@ fieldset.grupo .campo {
 /* Elementos de classe botão e de tag <select> */
 .botao, select{
     cursor: pointer;
+
+
+
 }
 #formtotal {
     margin-left: 35%;
+
 }

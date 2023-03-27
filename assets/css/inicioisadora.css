@@ -9,11 +9,13 @@ iframe {
 }
 a {
     text-decoration: none;
+
 }
 
 /*Article 1*/
 #noticiaprincipal {
     align-items: center;
+
 }
 
 /*Article 1 Texto*/
@@ -99,3 +101,8 @@ img {
 #ultimasnoticiasfotos {
     width: 10%;
 }
+.div {
+
+}
+
+/*Final css*/

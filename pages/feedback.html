@@ -1,54 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
-<head>
-  <!-- Metadados -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="../assets/css/formulario.css" media="screen">
+        <link rel="icon" href="../assets/images/logo.png.png">
+        
+        
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/feedback.css" media="screen">
+        <!-- Título da página (aparece na aba) -->
+        <title>Feedback</title>
+    </head>
 
-    <!-- Título da página -->
-    <title>Feedback</title>
-</head>
+    <body>  
 
-<body>
-
-    <H1 class="Feedback">Feedback</H1>
-    <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
-        <div class="input_form">
-          <label>Nome:</label>
-          <INPUT type="text" name="Nome" placeholder="Digite seu nome aqui" required>
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Digite seu Feedback</h1>
+            <p id="subtitulo">Escreva sua opinião sobre o site e (ou) as páginas.</p>
+            <br>
         </div>
-      <BR>
-      <BR>
-      <label>Sobrenome:</label>
-      <INPUT type="text" name="Sobrenome"  placeholder="Digite seu sobrenome aqui" required>
 
-      <BR>
-      <BR>
-      <!--Coloque seu e-mail e opções de deixar um comentário para um assunto expecifico-->
-      <label>E-mail:</label>
-      <INPUT type="E-mail" name="E-mail" placeholder="Digite seu e-mail">
-       
+        <!-- Início do formulário -->
+        <form>
 
-      <BR>
-      <BR>
-        Comentário :<BR>        
-        <INPUT type="Comentário" name="Digite seu comentário aqui" placeholder="Digite seu comentário aqui">
-        <BR>
-        <SELECT name="countychooser">
-          <OPTION value="Biologia">Biologia</OPTION>
-          <OPTION value="Futebol">Futebol</OPTION>
-          <OPTION value="Geologia">Geologia</OPTION>
-          <OPTION value="Nutrição">Nutrição</OPTION>
-          <OPTION value="Tecnologia">Tecnologia</OPTION>
-          <OPTION value="Vestibular!">Vestibular!</OPTION>
-        </SELECT>
-        <BR>
-        <BR>
-        <INPUT TYPE="submit" value="Enviar Feedback">
-    </FORM> 
-</body>
-</html> 64
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- campo de pergunts dos temas -->
+            <div class="campo">
+                <label><strong>Qual o tema?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Biologia
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Futebol
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Geologia
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Inovação
+                </label>
+                <label>
+                  <input type="radio" name="devweb" value="fullstack">Nutrição
+                </label>
+            <label>
+              <input type="radio" name="devweb" value="fullstack">Vestibular
+          </label>
+          <!--fim label-->
+              
+
+                    
+            </div>
+
+            <!-- campo de temas com 7 temas diferentes -->
+
+            
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button  class="botao" type="submit" href="../pages/formulario.html" >Concluído</button> 
+                  
+
+        
+       </form>
+       <!--fim form-->
+
+    
+    </body>
+
+</html>
+
+<!--final-->
