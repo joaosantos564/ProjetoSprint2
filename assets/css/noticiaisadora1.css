@@ -2,6 +2,16 @@
 /*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
 }
 main {
     display: flex;
@@ -130,3 +140,4 @@ margin: 0;
 }
 #div_bottom {
     margin-bottom: 10px;
+}

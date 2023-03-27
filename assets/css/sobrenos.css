@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #E0CFE6;
     margin: 0%;
     padding: 0%;
 }
@@ -39,7 +39,7 @@ display: flex;
 h1 {
     text-align: center;
     margin: 10px;
-    color: #52416d;
+    color: #7657b2;
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
@@ -54,14 +54,14 @@ h2 {
 .section1 {
     margin: 10px;
     width: 30%;
-    background-color: #E0CFE6;
+    background-color: #7657b2;
     position: relative;
     margin-top: 5px;
     font-weight: 500;
     letter-spacing: 0.04em;
     text-decoration: none;
     transition: 0.5s;
-    color: rgb(0, 0, 0);
+    color: white;
     border-radius: 20px;
 
 

@@ -1,25 +1,29 @@
 body {
-    background-color: #e4e3cd;
+    background-color: #E0CFE6;
     margin: 0;
     padding: 0;
     min-height: 100vh;
     justify-content: left;
     overflow-x: hidden;
-
 }
 iframe {
+
+    margin: 0%;
+    padding: 0%;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 #footer {
     margin-bottom: -5px;
 }
 
+#divprincipal {
+    padding: 20px;
+}
+
 /* banner inicio*/
 .sectionbn {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     height: 90vh;
     display: flex;
     justify-content: center;

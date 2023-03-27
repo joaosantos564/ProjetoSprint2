@@ -8,7 +8,9 @@ iframe {
     width: 100%;
     margin: 0%;
     padding: 0%;
-    margin-top: -30px;
+}
+#footer {
+    margin-bottom: -5px;
 }
 
 /* Elementos com o ID "titulo" */
@@ -40,7 +42,6 @@ body{
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
-    margin-top: 2%;
     justify-content: center;
 }
 
@@ -137,5 +138,9 @@ fieldset.grupo .campo {
 }
 #formtotal {
     margin-left: 35%;
+    margin-top: 2%;
+}
 
+#experiencia {
+    margin-bottom: 80px;
 }
