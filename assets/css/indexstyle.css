@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
 }
 iframe {
+
     margin: 0%;
     padding: 0%;
     width: 100%;
@@ -14,9 +15,11 @@ iframe {
 #footer {
     margin-bottom: -5px;
 }
+
 #divprincipal {
     padding: 20px;
 }
+
 /* banner inicio*/
 .sectionbn {
     margin: 0;
@@ -143,10 +146,16 @@ a {
 
 .main1 {
     display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+    
 }
 
 .main2  {
     display: flex;
+   
+    
 }
 
 .a0 p{
