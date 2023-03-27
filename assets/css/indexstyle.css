@@ -1,11 +1,19 @@
 body {
     background-color: #e4e3cd;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     min-height: 100vh;
     justify-content: left;
     overflow-x: hidden;
 
+}
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
 }
 
 /* banner inicio*/
@@ -134,10 +142,16 @@ a {
 
 .main1 {
     display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+    
 }
 
 .main2  {
     display: flex;
+   
+    
 }
 
 .a0 p{
