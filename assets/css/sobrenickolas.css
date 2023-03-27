@@ -3,14 +3,6 @@ body {
     margin: 0;
     padding: 0;
 }
-iframe {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-#footer {
-    margin-bottom: -5px;
-}
 p {
     margin: 20px;
     text-align: justify;
@@ -38,7 +30,7 @@ h2 {
 #article1 {
     display: flex;
     margin: 25px;
-    background-color: #E0CFE6;
+    background-color: #edcaff;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
@@ -76,7 +68,7 @@ border-left: 6px solid #52416d;
 
 /*Configurações Sections*/
 .section1 {
-    background-color: #E0CFE6;
+    background-color: #edcaff;
     border-radius: 10px;
     width: 33%;
     -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
@@ -94,7 +86,7 @@ border-left: 6px solid #52416d;
 
 /*Configurações Section Hobbie*/
 .section2 {
-    background-color: #E0CFE6;
+    background-color: #edcaff;
     border-radius: 10px;
     width: 33%;
 margin-left: 25px;
