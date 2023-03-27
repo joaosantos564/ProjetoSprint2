@@ -41,6 +41,12 @@ body {
     height: 500px;
 }
 
+.nav-m {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+}
+
 /* banner fim*/
 
 a {
