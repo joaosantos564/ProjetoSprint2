@@ -5,6 +5,14 @@ body {
     padding: 0;
     text-align: center;
 }
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
+}
 
 /*Título e subtítulo*/
 h1 {
@@ -13,7 +21,7 @@ h1 {
     text-align: center;
     margin: 20px;
 }
-h4 {
+h3 {
     color: black;
     text-align: center;
 }
@@ -53,8 +61,4 @@ section:hover {
 }
 a {
     text-decoration: none;
-}
-
-iframe {
-    width: 100%;
 }

@@ -9,8 +9,12 @@ a {
 }
 iframe {
     width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
-
+#footer {
+    margin-bottom: -5px;
+}
 /*Article 1*/
 #noticiaprincipal {
     align-items: center;
