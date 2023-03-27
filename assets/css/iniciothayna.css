@@ -1,10 +1,23 @@
+<<<<<<< HEAD
 /*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+=======
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+>>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 }
 a {
     text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+iframe {
+    width: 100%;
+}
+>>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 
 /*Article 1*/
 #noticiaprincipal {
@@ -93,4 +106,8 @@ img {
 }
 #ultimasnoticiasfotos {
     width: 10%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
