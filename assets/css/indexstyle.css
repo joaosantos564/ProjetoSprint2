@@ -12,16 +12,33 @@ body {
 .sectionbn {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .slider {
-    width: 100%;
+    width: 800px;
+    height: 500px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .slide {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
 
+.slide input {
+    display: none;
+}
+
+.st {
+    width: 20%;
+    transition: 2s;
+}
+
+.st img {
+    width: 800px;
+    height: 500px;
 }
 
 /* banner fim*/
