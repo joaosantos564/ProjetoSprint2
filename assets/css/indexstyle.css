@@ -6,8 +6,17 @@ body {
     justify-content: left;
     overflow-x: hidden;
 
+}
 
+/* banner inicio*/
+.sectionbn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.slider {
+    
 }
 
 a {
