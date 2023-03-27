@@ -1,6 +1,11 @@
 /*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    width: 100%;
 }
 a {
     text-decoration: none;
