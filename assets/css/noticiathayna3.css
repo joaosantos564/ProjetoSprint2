@@ -4,6 +4,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
+}
 /*Principal*/
 main {
     display: flex;

@@ -1,23 +1,19 @@
-<<<<<<< HEAD
 /*Configurações Gerais*/
-=======
->>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
-=======
+
 iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 #footer {
     margin-bottom: -5px;
 }
->>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 p {
     margin: 20px;
     text-align: justify;
@@ -39,22 +35,6 @@ h2 {
     color: #3b3169;
     font-family: serif;
     text-align: center;
-<<<<<<< HEAD
-}
-
-/*Configurações Article 1*/
-#article1 {
-    display: flex;
-    margin: 25px;
-    background-color: #edcaff;
-    border-radius: 10px;
-    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    border-left: 6px solid #52416d;
-}
-
-=======
 }
 
 /*Configurações Article 1*/
@@ -69,7 +49,6 @@ box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
 }
 
->>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 /*Configurações Imagem 1*/
 #foto {
     width: 30%;
@@ -78,7 +57,7 @@ border-left: 6px solid #52416d;
 #fotopessoal {
     border-radius: 10px;
     border: 5px outset #7657b2;
-    width: 100%;
+    width: 80%;
     
 }
 
@@ -97,19 +76,6 @@ border-left: 6px solid #52416d;
     display: flex;
     margin: 25px;
 }
-<<<<<<< HEAD
-
-/*Configurações Sections*/
-.section1 {
-    background-color: #edcaff;
-    border-radius: 10px;
-    width: 33%;
-    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    border-left: 6px solid #52416d;
-
-=======
 
 /*Configurações Sections*/
 .section1 {
@@ -121,7 +87,6 @@ border-left: 6px solid #52416d;
 box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
 
->>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 }
 .subtitulo {
     text-align: left;
@@ -132,17 +97,6 @@ border-left: 6px solid #52416d;
 
 /*Configurações Section Hobbie*/
 .section2 {
-<<<<<<< HEAD
-    background-color: #edcaff;
-    border-radius: 10px;
-    width: 33%;
-    margin-left: 25px;
-    margin-right: 25px;
-    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
-    border-left: 6px solid #52416d;
-=======
     background-color: #E0CFE6;
     border-radius: 10px;
     width: 33%;
@@ -152,5 +106,4 @@ margin-right: 25px;
 -moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
 border-left: 6px solid #52416d;
->>>>>>> 120e270139feeea5662db2855d2b97c216471eaf
 }
